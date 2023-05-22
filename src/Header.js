@@ -24,15 +24,17 @@ export default function Header() {
               <div className="input-group mt-3">
                 <input
                   type="text"
-                  className="rounded-pill w-75 me-3 p-2 form-control-plaintext"
+                  className="rounded-pill w-50 me-3 p-2 form-control-text"
+                  placeholder="inter your email"
                 />
-                <div className="input-group-text">Get it now</div>
+                <div className="input-group-button">Get it now</div>
               </div>
             </div>
             {/* {------------------main heade right side----------------} */}
-            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
+            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center
+            main-herosection-images">
               <img src="./Images/hero1.jpg" alt="heroimg" className="img-fluid"/>
-              <img src="./Images/hero2.jpg" alt="heroimg" className="img-fluid"/>
+              <img src="./Images/hero2.jpg" alt="heroimg" className="img-fluid main-hero-img2"/>
             </div>
           </div>
         </section>
