@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 export default function Navbar() {
 
@@ -27,24 +28,24 @@ export default function Navbar() {
             <div class={`collapse navbar-collapse ${show ? "show":""}`} >
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#home">
+                  <NavLink class="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#services">
+                  <NavLink class="nav-link" to="/services">
                     Services
-                  </a>
+                  </NavLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about">
+                  <NavLink class="nav-link" to="/about">
                     About
-                  </a>
+                  </NavLink>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact">
+                  <NavLink class="nav-link" to="/contacts">
                     Contact
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
               <form class="d-flex">
