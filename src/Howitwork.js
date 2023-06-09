@@ -3,7 +3,7 @@ import workapis from "./API/workApi";
 
 export default function Howitwork() {
   const [workapi, setworkapi] = useState(workapis);
-  console.log(workapi);
+  // console.log(workapi);
 
   return (
     <>
@@ -14,7 +14,7 @@ export default function Howitwork() {
             {workapi.map((curlEle) => {
               return (
                 <>
-                  <div className="col-12 col-lg-4 text-center work-container-subdiv">
+                  <div className="col-12 col-lg-4 text-center work-container-subdiv" key={curlEle.id}>
                     <i className={`fontawesome-style ${curlEle.logo}`} ></i>
                     <h2 className="sub-heading">{curlEle.title}</h2>
                     <p className="main-hero-para w-100">

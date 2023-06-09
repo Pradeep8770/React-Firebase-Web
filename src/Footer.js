@@ -64,7 +64,7 @@ export default function Footer() {
                             <div className='row'>
                                 <div className='col-3 mx-auto'>
                                     <a href='#3'>
-                                        <i className='fab fa-instagram fontawesome-style'></i>
+                                        <i className='fab fa-facebook-f fontawesome-style'></i>
                                     </a>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
                             <div className='row'>
                                 <div className='col-3 mx-auto'>
                                     <a href='#3'>
-                                        <i className='fab fa-instagram fontawesome-style'></i>
+                                        <i className='fab fa-twitter fontawesome-style'></i>
                                     </a>
                                 </div>
                             </div>

@@ -6,7 +6,7 @@ export default function Header() {
       <header>
         <section className="container main-hero-container">
           <div className="row">
-            <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start">
+            <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
               <h1 className="display2">
                 online payment Made <br />
                 Easy for you.
@@ -32,7 +32,7 @@ export default function Header() {
             </div>
             {/* {------------------main heade right side----------------} */}
             <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center
-            main-herosection-images">
+            main-herosection-images order-md-first order-sm-first">
               <img src="./Images/hero1.jpg" alt="heroimg" className="img-fluid"/>
               <img src="./Images/hero2.jpg" alt="heroimg" className="img-fluid main-hero-img2"/>
             </div>

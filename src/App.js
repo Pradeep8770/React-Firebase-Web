@@ -17,8 +17,8 @@ export default function App() {
         <Route path="/about" component={About} />
         <Route path="/contacts" component={Contacts} />
         <Route path="/services" component={Service} />
-        <Route path="/error" component={Error} />
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route component={Error} />
       </Switch>
     </Router>
   );
